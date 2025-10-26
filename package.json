@@ -15,12 +15,12 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "eslint --fix \"app/**/*.{ts,tsx}\" --ignore-pattern \"components/ui/*.{tsx}\"",
-    "prisma:format": "npx prisma format",
-    "prisma:generate": "npx prisma generate",
-    "prisma:dev": "npx prisma migrate dev",
-    "prisma:deploy": "npx prisma migrate deploy",
-    "prisma:seed": "npx prisma db seed",
-    "prebuild": "npx prisma generate"
+    "prisma:format": "prisma format",
+    "prisma:generate": "prisma generate",
+    "prisma:dev": "prisma migrate dev",
+    "prisma:deploy": "prisma migrate deploy",
+    "prisma:seed": "prisma db seed",
+    "prebuild": "prisma generate"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
