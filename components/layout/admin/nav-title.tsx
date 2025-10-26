@@ -11,7 +11,7 @@ import {
   SidebarMenuItem,
 } from '~/components/ui/sidebar'
 import Image from 'next/image'
-import favicon from '~/public/favicon.svg'
+import favicon from '~/public/favicon.png'
 import { useRouter } from 'next-nprogress-bar'
 
 export function NavTitle() {
@@ -28,7 +28,7 @@ export function NavTitle() {
               </div>
               <div className="grid flex-1 text-left text-sm leading-tight">
                 <span className="truncate font-semibold select-none">
-                  {'PicImpact'}
+                  光学笔记
                 </span>
               </div>
             </SidebarMenuButton>

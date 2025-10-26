@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import favicon from '~/public/favicon.svg'
+import favicon from '~/public/favicon.png'
 import Link from 'next/link'
 import { SignUpForm } from '~/components/sign-up/sign-up-from'
 
@@ -16,7 +16,7 @@ export default function SignUp() {
               height={36}
             />
           </div>
-          PicImpact
+          光学笔记
         </Link>
         <SignUpForm />
       </div>

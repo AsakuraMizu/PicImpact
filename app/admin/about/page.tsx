@@ -1,4 +1,4 @@
-import favicon from '~/public/favicon.svg'
+import favicon from '~/public/favicon.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { fetchContributors } from '~/lib/github/get-contributors'

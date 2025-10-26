@@ -1,6 +1,6 @@
 import { UserFrom } from '~/components/login/user-from'
 import Image from 'next/image'
-import favicon from '~/public/favicon.svg'
+import favicon from '~/public/favicon.png'
 import Link from 'next/link'
 
 export default function Login() {
@@ -16,7 +16,7 @@ export default function Login() {
               height={36}
             />
           </div>
-          PicImpact
+          光学笔记
         </Link>
         <UserFrom/>
       </div>
