@@ -20,3 +20,6 @@ dist
 certificates
 .vscode/
 .cursor/
+
+public/*.js
+*.tar.*
