@@ -38,7 +38,7 @@ import { encodeBrowserThumbHash } from '~/lib/utils/blurhash-client.ts'
 export default function SimpleFileUpload() {
   const [openListStorage, setOpenListStorage] = useState([])
   const [storageSelect, setStorageSelect] = useState(false)
-  const [storage, setStorage] = useState('r2')
+  const [storage, setStorage] = useState('s3')
   const [album, setAlbum] = useState('')
   const [openListMountPath, setOpenListMountPath] = useState('')
   const [exif, setExif] = useState({} as ExifType)
